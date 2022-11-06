@@ -1,4 +1,3 @@
-import 'package:addmylocation/view/getMyLocation_screen.dart';
 import 'package:addmylocation/view/homePage_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +16,6 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
-
         useMaterial3: true,
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Color(0xFF344E41),
@@ -33,4 +31,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
